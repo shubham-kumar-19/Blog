@@ -26,6 +26,8 @@ html, body{
     --Josefin : 'Josefin', cursive;
     --Lexend: 'Lexend', cursive;
     --Livvic : 'Livvic', cursive;
+    --Montserrat : 'Montserrat', cursive;
+    --Merriweather_Sans : 'Merriweather_Sans', cursive;
 }
 
 
@@ -33,7 +35,8 @@ html, body{
 
 a{
     text-decoration: none;
-    color: var(--text-gray);
+    color: var(--bg-color);
+
 }
 
 .flex-row{
@@ -56,8 +59,8 @@ h2{
 }
 
 h3{
-    font-family: var(--Abel);
-    font-size: 1.3rem;
+    font-family: var(--Merriweather_Sans);
+    font-size: 2rem;
 }
 
 button.btn{
@@ -82,8 +85,12 @@ span{
 }
 
 p{
-    font-family: var(--Lexend);
-    color: var(--text-light);
+    font-family: var(--Montserrat);
+    color: var(--bg-color);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 29px;
 }
 
 /* ------x------- Global Classes -------x-------*/
@@ -191,16 +198,6 @@ main .site-title h1, h3{
     margin: .3rem;
 }
 
-main .site-title .btn{
-    margin: 1.8rem;
-    background: var(--sky);
-}
-
-main .site-title .btn:hover{
-    background: transparent;
-    border: 1px solid var(--white);
-    color: var(--white);
-}
 
 /* --------x------ Site title --------x------- */
 
@@ -218,7 +215,8 @@ main .post-content{
 }
 
 main .site-content .post-content > .post-image, .post-title{
-    padding: 1rem 2rem;
+    /* edited by shubham*/
+    padding: 1rem ;
     position: relative;
 }
 
@@ -494,6 +492,13 @@ footer.footer .move-up span:hover{
         grid-template-columns: repeat(1, 1fr);
     }
 
+    /*Edited by shubham*/
+    main .site-content .post-content > .post-image, .post-title{
+        /* edited by shubham*/
+        padding: 1rem 0rem !important;
+        position: relative;
+    }
+
 }
 
 
@@ -524,6 +529,12 @@ footer.footer .move-up span:hover{
         width: 80% !important;
     }
 
+     /*Edited by shubham*/
+     main .site-content .post-content > .post-image, .post-title{
+        /* edited by shubham*/
+        padding: 1rem 0rem !important;
+        position: relative;
+    }
 }
 
 /*        x      Viewport less then or equal to 520px       x     */
