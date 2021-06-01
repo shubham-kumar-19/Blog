@@ -392,6 +392,14 @@ footer.footer .container h2{
     color: var(--white);
 }
 
+footer.footer .container p{
+    color: var(--text-light);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
 footer.footer .newsletter .form-element{
     background: black;
     display: inline-block;
