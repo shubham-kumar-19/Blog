@@ -181,11 +181,20 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../assets/Background-image.png');
+    background-image: url('../assets/dodge.jpg');
     background-size: cover;
-    height: 40vh;
+    /* height: 40vh; */
     display: flex;
     justify-content: center;
+
+    -webkit-background-size: cover;
+    height: 300px;
+    background-position: center center;
+    top: 100px;
+
+
+
+
 }
 
 main .site-title .site-background{
@@ -197,6 +206,7 @@ main .site-title .site-background{
 main .site-title h1, h3{
     margin: .3rem;
 }
+
 
 
 /* --------x------ Site title --------x------- */
@@ -511,6 +521,41 @@ footer.footer .move-up span:hover{
 
 
 /*        x      Viewport less then or equal to 750px       x     */
+
+
+/*              Viewport less then or equal to 720px             */
+@media only screen and (max-width: 720px){
+    main .blog{
+        height: 125vh;
+    }
+
+    .site-content .post-content > .post-image .post-info{
+        display: none;
+    }
+
+    footer.footer .container > div{
+        padding:  1rem .9rem !important;
+    }
+
+    footer .rights{
+        padding: 0 1.4rem;
+        text-align: center;
+    }
+
+    nav .toggle-collapse{
+        width: 80% !important;
+    }
+
+     /*Edited by shubham*/
+     main .site-content .post-content > .post-image, .post-title{
+        /* edited by shubham*/
+        padding: 1rem 0rem !important;
+        position: relative;
+    }
+}
+
+
+/*        x      Viewport less then or equal to 720px       x     */
 
 
 /*              Viewport less then or equal to 520px            */

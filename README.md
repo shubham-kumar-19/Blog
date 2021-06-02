@@ -1,2 +1,2 @@
-# Blooger_Website
-This is the complete blooger website create using html and css
+# ShubhamKumar_Website
+This is the complete blogging website 
